@@ -1,4 +1,4 @@
-fondo.jpg
+https://github.com/CAHOn3R/HackingDesktop/blob/96dc729ff3fd0154f2a8702199755f9e39cb4712/fondo.jpg
 
 # HackingDesktop
 
