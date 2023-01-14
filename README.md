@@ -1,4 +1,6 @@
-[![qr.png](https://i.postimg.cc/wvXDdG92/qr.png)](https://postimg.cc/WF4dGSFq)
+[![Captura-de-pantalla-2023-01-14-192727.png](https://i.postimg.cc/j2kH8JxY/Captura-de-pantalla-2023-01-14-192727.png)](https://postimg.cc/D4L4004x)
+
+
 # HackingDesktop
 
 Esto es un proyecto personal, todo está enfocado al hacking y a evitar distracciones, no tiene módulos innecesarios, solo funciones y módulos para agilizar acciones, espero que os guste.
