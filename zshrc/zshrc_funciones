@@ -1,0 +1,33 @@
+funcion copip()
+{
+  /usr/sbin/ifconfig $1 | /usr/bin/grep 'inet' |  /usr/bin/awk '{print $2}' |  /usr/bin/head -1 |  /usr/bin/tr -d '\n' |  /usr/bin/xclip -sel clip
+}
+function setPass(){
+
+      
+
+      texto=$1
+
+      echo $texto > /home/cahoner/.config/polybar/HackerDesktop/setPass.txt
+    
+
+}
+
+function setPass2(){
+
+      
+
+      texto=$1
+
+      echo $texto > /home/cahoner/.config/polybar/HackerDesktop/setPass2.txt
+    
+
+}
+
+function clearall()
+{
+    setPass ""
+    setPass2 ""
+    setIp ""
+    
+}
