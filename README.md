@@ -28,4 +28,5 @@ El siguiente paso será instalar picom en la carpeta .config y dentro del direct
 
 Para incorporar la kitty instala en el directorio .config/kitty/ aquí incorpora los archivos que te dejo en la carpeta "kitty_conf" el "kitty-startup.session" es opcional, lo que hace es que al iniciar bspwm ejecuta un "autorun" y se inicializa kitty con ciertos tabs y configuraciones que tiene seteadas, como iniciar la vpn de hackthebox e iniciar varias shells como root además de un tab para tomar notas (todo esto teniendo que incorporar la pass de root antes).
 
+Recordar que haciendo click tanto en las Ip como en las Passwords se copian en la clipboard, y tened en cuenta los permisos/propietarios de los archivos para que el usuario de bajos privilegios pueda leer y escribir, ya que si no os puede dar problemas...
 
