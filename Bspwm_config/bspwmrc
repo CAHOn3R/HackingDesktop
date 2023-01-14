@@ -1,5 +1,5 @@
 #! /bin/sh
-feh --bg-scale /home/cahoner/Imágenes/fondo.jpg &
+feh --bg-scale ~/Imágenes/fondo.jpg &
 pkill picom
 picom -f --daemon --config $HOME/.config/picom/picom.conf &
 
