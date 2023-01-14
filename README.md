@@ -1,4 +1,4 @@
-
+https://github.com/CAHOn3R/HackingDesktop/blob/main/qr.png
 # HackingDesktop
 
 Esto es un proyecto personal, todo está enfocado al hacking y a evitar distracciones, no tiene módulos innecesarios, solo funciones y módulos para agilizar acciones, espero que os guste.
