@@ -5,10 +5,6 @@
 
 # HackingDesktop
 
----
-
-## Proyecto Hacking Desktop
-
 Este es un proyecto personal enfocado en hacking y evitar distracciones. Se han eliminado módulos innecesarios, dejando solo funciones y módulos para agilizar acciones.
 
 ### Requisitos
