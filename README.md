@@ -5,28 +5,41 @@
 
 # HackingDesktop
 
-Esto es un proyecto personal, todo está enfocado al hacking y a evitar distracciones, no tiene módulos innecesarios, solo funciones y módulos para agilizar acciones, espero que os guste.
+---
 
+## Proyecto Hacking Desktop
 
-Para el correcto funcionamiento necesitaremos: bspwm, kitty, rofi, polybar, sxhkd, picom, xclip, Iosevka Nerd Font. Tened en cuenta que todo está montado en Parrot OS, en kali por ejemplo debería funcionar igual, pero no lo he probado…
+Este es un proyecto personal enfocado en hacking y evitar distracciones. Se han eliminado módulos innecesarios, dejando solo funciones y módulos para agilizar acciones.
 
+### Requisitos
 
-Para que todo sea más fácil, crea un directorio .config en: /home/TUNOMBRE/.
-Instala ahí todas las herramientas y simplemente tendrás que colocar cada cosa en su sitio...
-dentro del directorio polybar crea otro llamdo "HackingDesktop" ejemplo: /home/TUNOMBRE/.config/polybar/HackingDesktop/.
+Para el correcto funcionamiento, necesitarás tener instalados los siguientes elementos:
 
+- **bspwm**
+- **kitty**
+- **rofi**
+- **polybar**
+- **sxhkd**
+- **picom**
+- **xclip**
+- **Iosevka Nerd Font**
 
-Ahora aquí dentro clona/descarga/copia todos los archivos que te dejo en la carpeta "polybar" y recuerda incorporar las funciones que te dejo en "zshrc",
-aquí tienes dos opciones copiar mi zshrc entero o incorporar las funciones que te doy en el archivo "zshrc_funciones" a tu propio archivo, ya sea zshrc o bashrc (lo que utilices).
+Ten en cuenta que este entorno está configurado en Parrot OS. En Kali Linux, por ejemplo, debería funcionar de manera similar, aunque no ha sido probado.
 
+### Configuración
 
-Continuamos con bspwm una vez instalacion en el directorio .config incorpora el archivo que te dejo en "bspwm_config/bspwmrc" en tu directorio bspwm, quedaría de esta manera /home/TUNOMBRE/.config/bspwm/bspwmrc, aquí cercionate de que la ruta que especifica el archivo apunta a la ruta en la que has depositado el launch.sh, debería ser esta: ~/.config/polybar/HackerDesktop/launch.sh, si todo ha ido bien al reiniciar con ""windows"" + ALT + R deberias ver la polybar, si no reinicia y si sigue sin funcionar revisa paso a paso...
+1. Crea un directorio `.config` en `/home/TUNOMBRE/`. Instala todas las herramientas dentro de este directorio.
+2. Dentro del directorio `polybar`, crea otro llamado `HackingDesktop`, por ejemplo: `/home/TUNOMBRE/.config/polybar/HackingDesktop/`.
+3. Clona/descarga/copia todos los archivos proporcionados en la carpeta `polybar` dentro de este directorio.
+4. Incorpora las funciones proporcionadas en el archivo `zshrc` a tu propio archivo `zshrc` o `bashrc`, según lo que utilices.
+5. En el directorio `bspwm`, incorpora el archivo `bspwmrc` proporcionado en `bspwm_config/`. Asegúrate de que la ruta en este archivo apunta al `launch.sh` depositado en `~/.config/polybar/HackerDesktop/`.
+6. Instala `picom` y `sxhkd`. Incorpora los archivos de configuración proporcionados en los respectivos directorios `.config`.
+7. Instala `kitty` en el directorio `.config/kitty/`. Incorpora los archivos proporcionados en la carpeta `kitty_conf`.
 
+### Funcionalidades Adicionales
 
-El siguiente paso será instalar picom en la carpeta .config y dentro del directorio de picom incorporar el archivo de configuracion que te dejo en "picom_conf" y hacemos lo mismo con sxhkd para los atajos de teclado.
+- El archivo `kitty-startup.session` (opcional) inicializa `kitty` con ciertas configuraciones y pestañas al iniciar `bspwm`.
+- Al hacer clic tanto en las IPs como en las contraseñas, estas se copian en el portapapeles.
+- Asegúrate de establecer los permisos y propietarios adecuados para los archivos, para evitar problemas de lectura y escritura.
 
-
-Para incorporar la kitty instala en el directorio .config/kitty/ aquí incorpora los archivos que te dejo en la carpeta "kitty_conf" el "kitty-startup.session" es opcional, lo que hace es que al iniciar bspwm ejecuta un "autorun" y se inicializa kitty con ciertos tabs y configuraciones que tiene seteadas, como iniciar la vpn de hackthebox e iniciar varias shells como root además de un tab para tomar notas (todo esto teniendo que incorporar la pass de root antes).
-
-Recordar que haciendo click tanto en las Ip como en las Passwords se copian en la clipboard, y tened en cuenta los permisos/propietarios de los archivos para que el usuario de bajos privilegios pueda leer y escribir, ya que si no os puede dar problemas...
-
+---
